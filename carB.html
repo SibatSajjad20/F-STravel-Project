@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&S Travels Rent-A-Car</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-amber-100 flex flex-col min-h-screen">
+    <nav class="text-black h-16 flex  items-center justify-center px-4">
+        <img src="/photos/Blue and Yellow Illustrative Travel Agency Logo 2.svg" alt="Logo" class="h-16 w-16 mr-4">
+        <div class="flex items-center justify-center w-full">
+            <div class="flex items-center gap-12">
+                <ul class="flex font-bold space-x-8">
+                    <li class="text-orange-400 hover:underline"><a href="home.html">Home</a></li>
+                    <li class="hover:text-orange-400 hover:underline"><a href="hotelB.html">Hotel Booking</a></li>
+                    <li class="hover:text-orange-400 hover:underline"><a href="flightB.html">Flight Booking</a></li>
+                    <li class="hover:text-orange-400 hover:underline"><a href="carB.html">Car Booking</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <main class="container mx-auto px-4 py-8">
+
+<section class="  rounded-2xl flex flex-col mx-auto px-4 py-8 mt-[2rem] items-center md:flex-row"> 
+   <img src="./carRental Photos/New_rental_web_1dc8458c4e.avif" alt="" class="h-auto w-auto rounded-xl">
+
+</section>
+<section class="bg-white  container rounded-2xl flex flex-col mx-auto px-4 py-8 mt-[4rem] items-center md:flex-row mb-4"> 
+    <div class="w-1/2">
+        <img src="./carRental Photos/TGM_04125_2afa55b9ef_jpg_6a70495121 (1).avif" alt="" class="h-auto w-auto ">
+    </div>
+    <div class="md:w-1/2 md:ml-8 mt-8 md:mt-0">
+        <h1 class="font-extrabold text-4xl mb-2">Book hassle-free car <br> rentals</h1>
+        <p class=" text-lg mb-2">Searching for a car to rent with no deposit near you? Look <br> no further. At Careem, we believe in making your car <br> rental experience simple and straightforward:</p>
+        <ul class="list-disc mb-4 ml-[1.3rem]">
+            <li>Zero Deposit</li>
+            <li>Zero Paperwork</li>
+            <li>Delivered it to your doorstep</li>
+        </ul>
+        <button class="bg-blue-400 text-white rounded-lg w-[6rem] h-8 items-center">Drive Now</button>
+    </div>
+
+</section>
+<section class="bg-orange-500 container rounded-2xl flex flex-col mx-auto px-4 py-8 mt-[4rem] items-center md:flex-row mb-4"> 
+    <div class="w-1/2 ml-[4rem]">
+        <h1 class="font-extrabold text-4xl mb-2">Unlock savings: Limited <br> time offer</h1>
+        <p class=" text-lg mb-2">Enjoy AED 500 off your monthly rentals with code <br> SUMMER500 (TAKE500 in Abu Dhabi). Visit our app for <br> more details and make the most of your summer journey.</p>
+       
+        <button class="bg-white text-black rounded-lg w-[6rem] h-8 items-center">Redeem Now</button>
+    </div>
+   
+    <div class="md:w-1/2  mt-8 md:mt-0 ml-[14rem]">
+        <img src="./carRental Photos/unlock.avif" alt="" class="h-auto w-auto rounded-lg">
+    </div>
+</section>
+<section class=" py-10 mt-[5rem]">
+    <div class=" max-w-screen  mx-auto bg-white p-8 rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
+        
+        <div class="mb-4">
+            <button class="w-full text-left p-4 bg-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" onclick="toggleAnswer('answer1')">
+                <h2 class="text-xl font-semibold">How do I rent a car on F&S Travels?</h2>
+            </button>
+            <div id="answer1" class="mt-2 hidden p-4 bg-gray-100 rounded-md">
+                <p>Select CarRental from the home screen on the Careem app. Choose your rental duration - one day, weeks, or (a) month(s). Select your preferred vehicle, then follow the prompts for booking and payments.</p>
+            </div>
+        </div>
+        <div class="mb-4">
+            <button class="w-full text-left p-4 bg-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" onclick="toggleAnswer('answer2')">
+                <h2 class="text-xl font-semibold">Do I have to pick up the car myself?</h2>
+            </button>
+            <div id="answer2" class="mt-2 hidden p-4 bg-gray-100 rounded-md">
+                <p>We offer car delivery services, within two hours, for a fee. You also have the option for self pickup.</p>
+            </div>
+        </div>
+        <div class="mb-4">
+            <button class="w-full text-left p-4 bg-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" onclick="toggleAnswer('answer3')">
+                <h2 class="text-xl font-semibold">Do you offer insurance?</h2>
+            </button>
+            <div id="answer3" class="mt-2 hidden p-4 bg-gray-100 rounded-md">
+                <p>Yes, you can add a fee for insurance, to avoid paying full charges should you be involved in an accident. This is available for 25 year olds and above.</p>
+            </div>
+        </div>
+        <div class="mb-4">
+            <button class="w-full text-left p-4 bg-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" onclick="toggleAnswer('answer4')">
+                <h2 class="text-xl font-semibold">Can I add another driver?</h2>
+            </button>
+            <div id="answer4" class="mt-2 hidden p-4 bg-gray-100 rounded-md">
+                <p>Yes, you can include a secondary driver.</code>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<main>
+    
+</main>
+<footer class="bg-cyan-600 text-white py-7 mt-[12rem]">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <!-- Footer Column 1 -->
+                <div class="w-full md:w-1/3 pl-[-12rem] ">
+                   <img class=" w-[15rem] h-[15rem]" src="./photos/Blue and Yellow Illustrative Travel Agency Logo 2.svg" alt="">
+                </div>
+                <!-- Footer Column 2 -->
+                <div class="w-full mt-12 md:w-1/3 mb-6 md:mb-0">
+                    <h2 class="text-lg font-semibold mb-4">Quick Links</h2>
+                    <ul>
+                        <li class="mb-2"><a href="#" class="hover:underline">Home</a></li>
+                        <li class="mb-2"><a href="#" class="hover:underline">Flight Booking</a></li>
+                        <li class="mb-2"><a href="#" class="hover:underline">Hotel Booking</a></li>
+                        <li class="mb-2"><a href="#" class="hover:underline">Rent A Car</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Column 3 -->
+                <div class=" w-full mt-12 md:w-1/3 mb-6 md:mb-0">
+                    <h2 class="text-lg font-semibold mb-4">Contact Us</h2>
+
+                    <div class="flex flex-wrap w-full gap-2 md:w-1/3 mb-6 md:mb-0">
+                      <img class="w-[1.5rem] h-[1.5rem]" src="./photos/Facebook.png" alt="">
+                      <img class="w-[1.5rem] h-[1.5rem]" src="./photos/Google.png" alt="">
+                      <img class="w-[1.5rem] h-[1.5rem]" src="./photos/Facebook.png" alt="">
+                      <img class="w-[1.5rem] h-[1.5rem]" src="./photos/Google.png" alt="">
+                    </div>
+                  </div>
+            </div>
+            <div class="text-center mt-8">
+                <p>2024 F&S Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleAnswer(id) {
+    var element = document.getElementById(id);
+    element.classList.toggle('hidden');
+}
+    </script>
+</body>
+</html>
